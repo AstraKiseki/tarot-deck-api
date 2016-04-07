@@ -8,10 +8,11 @@ namespace TarotDeck.Core.Domain
 {
     public enum CardNumber
     {
-        // Intended to go 0 - 22 to allow for the Major Arcana
+
     }
     public class Card
     {
+        public int CardId { get; set; }
         public string Suit { get; set; }
         public string Meaning { get; set; }
         public bool Reversed { get; set; }

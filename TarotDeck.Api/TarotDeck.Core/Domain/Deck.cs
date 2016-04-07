@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace TarotDeck.Core.Domain
 {
-    class Deck
+    public class Deck
     {
+        public int DeckId { get; set; }
+        public string DeckName { get; set; }
+        public string DeckType { get; set; }
     }
 }

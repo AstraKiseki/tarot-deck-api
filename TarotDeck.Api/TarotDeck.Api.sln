@@ -14,6 +14,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TarotDeck.Api", "src\TarotD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TarotDeck.Core", "TarotDeck.Core\TarotDeck.Core.csproj", "{E238D037-7C36-4042-A1DD-C45228CF4736}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TarotDeck.Infrastructure", "TarotDeck.Infrastructure\TarotDeck.Infrastructure.csproj", "{FC3C3EBF-A2DC-4B68-B8FE-680FEED7404C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,11 +30,12 @@ Global
 		{E238D037-7C36-4042-A1DD-C45228CF4736}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E238D037-7C36-4042-A1DD-C45228CF4736}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E238D037-7C36-4042-A1DD-C45228CF4736}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC3C3EBF-A2DC-4B68-B8FE-680FEED7404C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC3C3EBF-A2DC-4B68-B8FE-680FEED7404C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC3C3EBF-A2DC-4B68-B8FE-680FEED7404C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC3C3EBF-A2DC-4B68-B8FE-680FEED7404C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{79048A33-3A8E-4CC6-BC14-D99D77C447FD} = {F36BB23D-EDD6-402F-8A30-5ADA53C026FF}
 	EndGlobalSection
 EndGlobal
