@@ -8,7 +8,7 @@ namespace TarotDeck.Core.Domain
 {
     public enum CardNumber
     {
-
+    
     }
     public class Card
     {
