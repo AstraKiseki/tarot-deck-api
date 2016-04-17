@@ -8,8 +8,9 @@ namespace TarotDeck.Core.Domain
 {
     public enum CardNumber
     {
-    
+
     }
+
     public class Card
     {
         public int CardId { get; set; }
@@ -20,5 +21,7 @@ namespace TarotDeck.Core.Domain
         public string Image { get; set; }
         public string Description { get; set; }
         public CardNumber CardNumber { get; set; }
+
+
     }
 }
