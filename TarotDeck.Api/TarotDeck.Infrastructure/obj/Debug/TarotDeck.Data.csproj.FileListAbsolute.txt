@@ -1,0 +1,10 @@
+C:\dev\personal\tarot-deck-api\TarotDeck.Api\TarotDeck.Infrastructure\bin\Debug\TarotDeck.Infrastructure.dll.config
+C:\dev\personal\tarot-deck-api\TarotDeck.Api\TarotDeck.Infrastructure\bin\Debug\TarotDeck.Infrastructure.dll
+C:\dev\personal\tarot-deck-api\TarotDeck.Api\TarotDeck.Infrastructure\bin\Debug\TarotDeck.Infrastructure.pdb
+C:\dev\personal\tarot-deck-api\TarotDeck.Api\TarotDeck.Infrastructure\bin\Debug\EntityFramework.dll
+C:\dev\personal\tarot-deck-api\TarotDeck.Api\TarotDeck.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\dev\personal\tarot-deck-api\TarotDeck.Api\TarotDeck.Infrastructure\bin\Debug\EntityFramework.xml
+C:\dev\personal\tarot-deck-api\TarotDeck.Api\TarotDeck.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\dev\personal\tarot-deck-api\TarotDeck.Api\TarotDeck.Infrastructure\obj\Debug\TarotDeck.Data.csprojResolveAssemblyReference.cache
+C:\dev\personal\tarot-deck-api\TarotDeck.Api\TarotDeck.Infrastructure\obj\Debug\TarotDeck.Infrastructure.dll
+C:\dev\personal\tarot-deck-api\TarotDeck.Api\TarotDeck.Infrastructure\obj\Debug\TarotDeck.Infrastructure.pdb

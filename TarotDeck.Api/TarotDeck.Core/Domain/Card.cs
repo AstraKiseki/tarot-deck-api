@@ -22,6 +22,6 @@ namespace TarotDeck.Core.Domain
         public string Description { get; set; }
         public CardNumber CardNumber { get; set; }
 
-
+        public virtual Deck Deck { get; set; }
     }
 }

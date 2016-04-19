@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F36BB23D-EDD6-402F-8A30-5ADA53C026FF}"
 EndProject
@@ -14,7 +14,7 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TarotDeck.Api", "src\TarotD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TarotDeck.Core", "TarotDeck.Core\TarotDeck.Core.csproj", "{E238D037-7C36-4042-A1DD-C45228CF4736}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TarotDeck.Infrastructure", "TarotDeck.Infrastructure\TarotDeck.Infrastructure.csproj", "{FC3C3EBF-A2DC-4B68-B8FE-680FEED7404C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TarotDeck.Data", "TarotDeck.Infrastructure\TarotDeck.Data.csproj", "{FC3C3EBF-A2DC-4B68-B8FE-680FEED7404C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
