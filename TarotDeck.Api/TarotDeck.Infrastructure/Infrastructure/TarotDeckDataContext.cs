@@ -29,4 +29,4 @@ public class TarotDeckDataContext : DbContext
         base.OnModelCreating(modelBuilder);
     }
 }
-}
+

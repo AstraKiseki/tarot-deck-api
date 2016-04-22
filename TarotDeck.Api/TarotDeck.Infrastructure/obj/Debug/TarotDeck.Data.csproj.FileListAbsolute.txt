@@ -8,3 +8,5 @@ C:\dev\personal\tarot-deck-api\TarotDeck.Api\TarotDeck.Infrastructure\bin\Debug\
 C:\dev\personal\tarot-deck-api\TarotDeck.Api\TarotDeck.Infrastructure\obj\Debug\TarotDeck.Data.csprojResolveAssemblyReference.cache
 C:\dev\personal\tarot-deck-api\TarotDeck.Api\TarotDeck.Infrastructure\obj\Debug\TarotDeck.Infrastructure.dll
 C:\dev\personal\tarot-deck-api\TarotDeck.Api\TarotDeck.Infrastructure\obj\Debug\TarotDeck.Infrastructure.pdb
+C:\dev\personal\tarot-deck-api\TarotDeck.Api\TarotDeck.Infrastructure\bin\Debug\TarotDeck.Core.dll
+C:\dev\personal\tarot-deck-api\TarotDeck.Api\TarotDeck.Infrastructure\bin\Debug\TarotDeck.Core.pdb
