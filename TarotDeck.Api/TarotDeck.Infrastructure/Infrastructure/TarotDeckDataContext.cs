@@ -24,7 +24,7 @@ public class TarotDeckDataContext : DbContext
         modelBuilder.Entity<Deck>()
                     .HasMany(d => d.Cards)
                     .WithRequired(c => c.Deck)
-                    .HasForeignKey(c => c.CardId);
+                    .HasForeignKey(c => c.DeckId);
 
         base.OnModelCreating(modelBuilder);
     }

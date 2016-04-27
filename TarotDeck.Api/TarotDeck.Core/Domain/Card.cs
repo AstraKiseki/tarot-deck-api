@@ -14,6 +14,7 @@ namespace TarotDeck.Core.Domain
     public class Card
     {
         public int CardId { get; set; }
+        public int DeckId { get; set; }
         public string Suit { get; set; }
         public string Meaning { get; set; }
         public bool Reversed { get; set; }
