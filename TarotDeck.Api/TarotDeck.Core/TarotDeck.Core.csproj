@@ -75,12 +75,13 @@
   <ItemGroup>
     <Compile Include="Domain\Card.cs" />
     <Compile Include="Domain\Deck.cs" />
+    <Compile Include="Infrastructure\Disposable.cs" />
+    <Compile Include="Infrastructure\IRepository.cs" />
     <Compile Include="Models\CardModel.cs" />
     <Compile Include="Models\DeckModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Infrastructure\" />
     <Folder Include="Repository\" />
   </ItemGroup>
   <ItemGroup>
