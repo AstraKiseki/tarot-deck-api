@@ -7,6 +7,7 @@ using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
 using System.Web.Http.ModelBinding;
+using TarotDeck.Api.Infrastructure;
 using TarotDeck.Core.Infrastructure;
 using TarotDeck.Core.Models;
 
