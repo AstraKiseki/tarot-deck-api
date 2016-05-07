@@ -10,6 +10,7 @@ using System.Web.Http.ModelBinding;
 using TarotDeck.Api.Infrastructure;
 using TarotDeck.Core.Infrastructure;
 using TarotDeck.Core.Models;
+using TarotDeck.Core.Repository;
 
 namespace TarotDeck.Api.Controllers
 {
