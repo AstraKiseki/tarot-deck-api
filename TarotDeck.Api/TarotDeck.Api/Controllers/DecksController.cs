@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AutoMapper;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -9,6 +10,7 @@ using System.Web.Http.ModelBinding;
 using TarotDeck.Api.Infrastructure;
 using TarotDeck.Core.Infrastructure;
 using TarotDeck.Core.Models;
+using TarotDeck.Core.Repository;
 
 namespace TarotDeck.Api.Controllers
 {
@@ -49,7 +51,7 @@ namespace TarotDeck.Api.Controllers
                 return BadRequest(ModelState);
             }
 
-            if (id != modelDeck.Id)
+            if (id != modelDeck.DeckId)
             {
                 return BadRequest();
             }
@@ -92,9 +94,9 @@ namespace TarotDeck.Api.Controllers
             _deckRepository.Add(newDeck);
             _unitOfWork.Commit();
 
-            Deck.Id = newDeck.Id;
+            Deck.DeckId = newDeck.DeckId;
 
-            return CreatedAtRoute("DefaultApi", new { id = Deck.Id }, Deck);
+            return CreatedAtRoute("DefaultApi", new { id = Deck.DeckId }, Deck);
         }
 
         // DELETE: api/Decks/5
