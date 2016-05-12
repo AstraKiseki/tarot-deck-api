@@ -18,6 +18,7 @@ namespace TarotDeck.Api.Controllers
     public class CardsController : BaseApiController
     {
         private readonly IUnitOfWork _unitOfWork;
+        private readonly ICardRepository _cardRepository;
 
         public CardsController(IUnitOfWork unitOfWork, ICardRepository cardRepository) : base(cardRepository)
         {
