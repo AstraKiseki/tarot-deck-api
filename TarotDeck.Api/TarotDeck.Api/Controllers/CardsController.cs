@@ -97,9 +97,9 @@ namespace TarotDeck.Api.Controllers
             _cardRepository.Add(newCard);
             _unitOfWork.Commit();
 
-            Card.Id = newCard.Id;
+            Card.CardId = newCard.Id;
 
-            return CreatedAtRoute("DefaultApi", new { id = Card.Id }, Card);
+            return CreatedAtRoute("DefaultApi", new { id = Card.CardId }, Card);
         }
 
         // DELETE: api/Cards/5

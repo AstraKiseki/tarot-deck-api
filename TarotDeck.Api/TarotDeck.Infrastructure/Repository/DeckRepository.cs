@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TarotDeck.Core.Domain;
+using TarotDeck.Core.Repository;
+using TarotDeck.Infrastructure.Infrastructure;
 
 namespace TarotDeck.Infrastructure.Repository
 {
