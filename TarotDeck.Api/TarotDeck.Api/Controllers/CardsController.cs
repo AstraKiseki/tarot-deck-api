@@ -54,7 +54,7 @@ namespace TarotDeck.Api.Controllers
                 return BadRequest(ModelState);
             }
 
-            if (id != modelCard.Id)
+            if (id != modelCard.CardId)
             {
                 return BadRequest();
             }
