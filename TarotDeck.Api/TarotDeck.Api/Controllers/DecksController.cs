@@ -11,6 +11,7 @@ using TarotDeck.Api.Infrastructure;
 using TarotDeck.Core.Infrastructure;
 using TarotDeck.Core.Models;
 using TarotDeck.Core.Repository;
+using TarotDeck.Core.Domain;
 
 namespace TarotDeck.Api.Controllers
 {
@@ -118,7 +119,7 @@ namespace TarotDeck.Api.Controllers
 
         private bool DeckExists(int id)
         {
-            return _deckRepository.Any(u => u.Id == id);
+            return _deckRepository.Any(u => u.DeckId == id);
         }
     }
 }

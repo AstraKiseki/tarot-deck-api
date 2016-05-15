@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TarotDeck.Core.Models;
 
 namespace TarotDeck.Core.Domain
 {
@@ -24,5 +25,17 @@ namespace TarotDeck.Core.Domain
         public CardNumber CardNumber { get; set; }
 
         public virtual Deck Deck { get; set; }
+
+        public void Update(CardModel modelCard)
+        {
+            CardId = modelCard.CardId;
+            Suit = modelCard.Description;
+            Meaning = modelCard.Meaning;
+            Reversed = modelCard.Reversed;
+            ReversedMeaning = modelCard.ReversedMeaning;
+            Image = modelCard.Image;
+            Description = modelCard.Description;
+            CardNumber CardNumber = modelCard.CardNumber;
+        }
     }
 }

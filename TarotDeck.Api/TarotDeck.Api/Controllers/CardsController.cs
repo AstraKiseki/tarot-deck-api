@@ -11,6 +11,7 @@ using TarotDeck.Api.Infrastructure;
 using TarotDeck.Core.Infrastructure;
 using TarotDeck.Core.Models;
 using TarotDeck.Core.Repository;
+using TarotDeck.Core.Domain;
 
 namespace TarotDeck.Api.Controllers
 {
@@ -97,7 +98,7 @@ namespace TarotDeck.Api.Controllers
             _cardRepository.Add(newCard);
             _unitOfWork.Commit();
 
-            Card.CardId = newCard.Id;
+            Card.CardId = newCard.CardId;
 
             return CreatedAtRoute("DefaultApi", new { id = Card.CardId }, Card);
         }
@@ -120,7 +121,7 @@ namespace TarotDeck.Api.Controllers
 
         private bool CardExists(int id)
         {
-            return _cardRepository.Any(u => u.Id == id);
+            return _cardRepository.Any(u => u.CardId == id);
         }
     }
 }
