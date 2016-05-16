@@ -15,7 +15,6 @@ using TarotDeck.Core.Domain;
 
 namespace TarotDeck.Api.Controllers
 {
-{
     public class CardsController : BaseApiController
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -124,5 +123,4 @@ namespace TarotDeck.Api.Controllers
             return _cardRepository.Any(u => u.CardId == id);
         }
     }
-}
 }

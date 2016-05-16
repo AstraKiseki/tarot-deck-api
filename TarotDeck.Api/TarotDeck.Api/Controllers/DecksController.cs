@@ -41,6 +41,7 @@ namespace TarotDeck.Api.Controllers
             {
                 return NotFound();
             }
+
             return Ok(Mapper.Map<DeckModel>(Deck));
         }
 
