@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using AutoMapper;
+using TarotDeck.Core.Domain;
+using TarotDeck.Core.Models;
 
 namespace TarotDeck.Api
 {
@@ -19,6 +22,16 @@ namespace TarotDeck.Api
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+            var appXmlType = config.Formatters.XmlFormatter.SupportedMediaTypes.FirstOrDefault(t => t.MediaType == "application/xml");
+            config.Formatters.XmlFormatter.SupportedMediaTypes.Remove(appXmlType);
+
+            CreateMaps();
+        }
+
+        public static void CreateMaps()
+        {
+            Mapper.CreateMap<Card, CardModel>();
+            Mapper.CreateMap<Deck, DeckModel>();
         }
     }
 }
