@@ -81,6 +81,7 @@
     <Compile Include="Models\CardModel.cs" />
     <Compile Include="Models\DeckModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\IAuthorizationRepository.cs" />
     <Compile Include="Repository\ICardRepository.cs" />
     <Compile Include="Repository\IDeckRepository.cs" />
   </ItemGroup>

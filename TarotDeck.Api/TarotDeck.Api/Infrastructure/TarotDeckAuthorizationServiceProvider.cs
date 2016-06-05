@@ -5,6 +5,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using System.Web;
+using TarotDeck.Core.Repository;
 
 namespace TarotDeck.Api.Infrastructure
 {
@@ -14,7 +15,7 @@ namespace TarotDeck.Api.Infrastructure
 
         private IAuthorizationRepository _authRepository => _authRepositoryFactory.Invoke();
 
-        public SnowflakeAuthorizationServerProvider(Func<IAuthorizationRepository> authRepositoryFactory)
+        public TarotDeckAuthorizationServerProvider(Func<IAuthorizationRepository> authRepositoryFactory)
         {
             _authRepositoryFactory = authRepositoryFactory;
         }
