@@ -26,12 +26,14 @@ namespace TarotDeck.Api.Controllers
         }
 
         // GET: api/Cards
+        [AllowAnonymous]
         public IEnumerable<CardModel> GetCards()
         {
             return Mapper.Map<IEnumerable<CardModel>>(_cardRepository.GetAll());
         }
 
         // GET: api/Cards/5
+        [AllowAnonymous]
         [ResponseType(typeof(CardModel))]
         public IHttpActionResult GetCard(int id)
         {
