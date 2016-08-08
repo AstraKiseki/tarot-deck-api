@@ -80,7 +80,6 @@ namespace TarotDeck.Api.Controllers
                     throw;
                 }
             }
-
             return StatusCode(HttpStatusCode.NoContent);
         }
 
